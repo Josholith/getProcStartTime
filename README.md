@@ -10,7 +10,7 @@ Here's the magic logic: AIX just like Linux has a process called init with PID 1
 ```
 ./getProcStartTime 1
 ```
-On my server, returns Wed Apr 23 10:33:30 2014; yours will be different.
+On my server, it returns `Wed Apr 23 10:33:30 2014`; yours will be different.
 
 Note, I originally made getProcStartTime specifically for this purpose, but now I use it in all kinds of other scripts. Want to know how long an Oracle database has been up? Find the PID of Oracle's PMON and pass that PID as your arg after getProcStartTime.
 
